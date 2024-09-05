@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Rodfat';
+  src: url('/fonts/Rodfat two-Demo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -16,6 +24,22 @@
   }
 }
 
+.text-scratched {
+  font-family: 'Rodfat', sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+  background: url('/textura.webp');
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-size: cover;
+  mix-blend-mode: difference;
+}
+
+
+
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -24,6 +48,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    font-family: 'Rodfat', sans-serif;
 }
 
 @layer utilities {
