@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import styles from "./Modal.module.css";
+import styles from "./modal.module.css";
 
 export default function Main() {
   const [isOpen, setIsOpen] = useState(false);
