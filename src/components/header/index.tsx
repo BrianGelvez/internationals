@@ -28,8 +28,8 @@ export default function Header() {
 
   return (
     <div
-      className={`fixed top-0 left-1/2 mt-3 -translate-x-1/2 
-                 w-[95%] xl:w-container backdrop-blur-sm bg-black/60 shadow-md z-10 rounded-xl 
+      className={`fixed top-0 left-1/2 -translate-x-1/2 
+                 w-full xl:w-container backdrop-blur-sm bg-black/60 shadow-md z-10 rounded-xl 
                  transition-transform duration-300 
                  ${scrollingDown ? "translate-y-[-400%]" : "translate-y-0"}`}
     >

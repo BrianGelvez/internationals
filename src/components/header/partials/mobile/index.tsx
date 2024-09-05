@@ -5,8 +5,8 @@ import Link from "next/link";
 export default function Mobile(handleClickClose: any) {
   const navItems = [
     { id: 0, text: "INICIO", idLink: "/" },
-    { id: 1, text: "SOMBRE MI", idLink: "aboutMe" },
-    { id: 2, text: "SERVICIOS", idLink: "services" },
+    { id: 1, text: "SOMBRE NOSOTROS", idLink: "about" },
+    { id: 2, text: "NUESTRA COMIDA", idLink: "products" },
     { id: 3, text: "TESTIMONIOS", idLink: "testimonies" },
     { id: 4, text: "FAQ", idLink: "faq" },
     { id: 5, text: "CONTACTO", idLink: "contact" },
