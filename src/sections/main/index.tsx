@@ -3,6 +3,8 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import styles from "./modal.module.css";
+import Link from "next/link";
+import { FaArrowDown } from "react-icons/fa";
 
 export default function Main() {
   const [isOpen, setIsOpen] = useState(false);
@@ -45,22 +47,30 @@ export default function Main() {
         alt="Imagen de fondo de inicio para dispositivos móviles"
         layout="fill"
         objectFit="cover"
+        className="block xl:hidden"
+      />
+      <Image
+        src="/fondodesktop.webp"
+        alt="Imagen de fondo de inicio para dispositivos móviles"
+        layout="fill"
+        objectFit="cover"
+        className="hidden xl:block"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent">
         <div className="absolute inset-0 flex flex-col xl:items-center">
           <button
             onClick={() => setShowModal(true)}
-            className="w-full h-auto p-2 backdrop-blur-md bg-white/20 mt-[110px] lg:mt-[120px] flex flex-col justify-center items-center"
+            className="w-full h-auto p-2 backdrop-blur-md bg-white/20 mt-[100px] lg:mt-[105px] flex flex-col justify-center items-center"
           >
             <div className="w-full flex flex-row justify-center items-center gap-2">
               <p className="text-3xl mt-1">{isOpen ? "🍽️" : "😴"}</p>
               <span className="w-auto flex flex-col">
-                <p className="text-white text-[13px] lg:text-2xl xl:text-3xl">
+                <p className="text-white text-[13px] lg:text-2xl">
                   {isOpen
                     ? "Estamos abiertos"
                     : "En este momento estamos cerrados"}
                 </p>
-                <p className="text-white text-[10px] lg:text-2xl xl:text-3xl">
+                <p className="text-white text-[10px] lg:text-2xl">
                   Haz click para consultar nuestros horarios.
                 </p>
               </span>
@@ -76,7 +86,9 @@ export default function Main() {
                   ×
                 </button>
                 <h2 className={styles.modalTitle}>Horarios de atencion</h2>
-                <p className="text-[#333] text-sm text-center mt-1 mb-4">Abierto de lunes a lunes 😉</p>
+                <p className="text-[#333] text-sm text-center mt-1 mb-4">
+                  Abierto de lunes a lunes 😉
+                </p>
                 <p className={styles.modalText}>
                   <span className={styles.dayName}>Lunes:</span> de 12:00PM a
                   15:30PM y de 20:00PM a 00:00PM.
@@ -106,9 +118,18 @@ export default function Main() {
                   15:30PM y de 20:00PM a 00:00PM.
                 </p>
               </div>
-             
             </div>
           )}
+        </div>
+        <div className="absolute transition-transform duration-300 bottom-28 w-full lg:w-full lg:flex lg:justify-center lg:items-center px-3 h-10">
+          <button className="backdrop-blur-sm bg-brown-primary/30 shadow-md border-[1px] border-brown-secundary w-full lg:w-auto lg:px-14 lg:py-3 h-auto p-2 rounded-lg text-white lg:text-3xl lg:flex lg:justify-center lg:items-center">
+            ¡Haz tu pedido ahora! 😋
+          </button>
+        </div>
+        <div className="absolute bottom-0 w-full h-24 opacity-50 flex justify-center items-center">
+          <Link href="#aboutme">
+            <FaArrowDown size={36} className="text-white animate-bounce" />
+          </Link>
         </div>
       </div>
     </div>

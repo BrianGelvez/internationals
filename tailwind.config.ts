@@ -17,6 +17,9 @@ const config: Config = {
       width: {
         container: "calc(100% - 200px)",
       },
+      padding: {
+        container: "50px",
+      }
     },
   },
   plugins: [require('tailwind-hamburgers')],

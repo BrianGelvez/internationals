@@ -29,18 +29,18 @@ export default function Header() {
   return (
     <div
       className={`fixed top-0 left-1/2 -translate-x-1/2 
-                 w-full xl:w-container backdrop-blur-sm bg-black/60 shadow-md z-10 rounded-xl 
+                 w-full lg:px-container backdrop-blur-sm bg-black/60 shadow-md z-10 rounded-xl 
                  transition-transform duration-300 
                  ${scrollingDown ? "translate-y-[-400%]" : "translate-y-0"}`}
     >
-      <div  className="relative w-full flex flex-row justify-between items-start p-3">
+      <div className="relative w-full flex flex-row justify-between items-start p-3">
         <span className="cursor-pointer">
           <Link href="/">
             <Image
               width={70}
               height={70}
               src="/internationalsLogo.webp"
-              alt="Logo de Diego Bustos, abogado penalista"
+              alt=""
             />
           </Link>
         </span>
@@ -70,7 +70,7 @@ export default function Header() {
               placeholder="menu"
               className="peer/menu hidden"
             />
-            <Mobile handleClickClose={() => setOpened(false)}/>
+            <Mobile handleClickClose={() => setOpened(false)} />
           </div>
           <div className="hidden lg:flex">
             <Desktop />
