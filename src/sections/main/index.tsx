@@ -56,7 +56,7 @@ export default function Main() {
         objectFit="cover"
         className="hidden xl:block"
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent">
+      <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent">
         <div className="absolute inset-0 flex flex-col xl:items-center">
           <button
             onClick={() => setShowModal(true)}

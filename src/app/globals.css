@@ -26,7 +26,7 @@
 
 .text-scratched {
   font-family: 'Rodfat', sans-serif;
-  font-size: 4rem;
+  font-size: 20px;
   font-weight: bold;
   color: white;
   background: url('/textura.webp');
@@ -37,8 +37,41 @@
   mix-blend-mode: difference;
 }
 
+.argentina-gradient {
+  background: linear-gradient(90deg, 
+    #74A3E0,
+    #FFFFFF,
+    #74A3E0
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
 
+.brazil-gradient {
+  background: linear-gradient(90deg, 
+    #009739,
+    #F7E05F,
+    #009739
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
 
+.mexico-gradient {
+  background: linear-gradient(90deg, 
+    #006847, /* Verde */
+    #FFFFFF, /* Blanco */
+    #BF0A30 /* Rojo */
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
 
 body {
   color: rgb(var(--foreground-rgb));
