@@ -5,7 +5,7 @@ export default function AboutMe() {
     <div
       className="relative w-full flex flex-col h-[1800px] min1:h-[1650px] 
               min2:h-[1600px] min3:h-[1500px] min4:h-[1400px] sm:h-[1380px] md:h-[1330px] 
-              lg:h-[1100px] xl:h-[1100px] 2xl:h-[900px]"
+              lg:h-[1400px] xl:h-[1100px] 2xl:h-[900px]"
     >
       <Image
         src="/fondoArgentina.webp"
@@ -15,14 +15,14 @@ export default function AboutMe() {
         className="block lg:hidden"
       />
       <Image
-        src="/blackdesktop.webp"
+        src="/fondoArgentinaDesktop.webp"
         alt="Imagen de fondo de inicio para dispositivos móviles"
         layout="fill"
         objectFit=""
         className="hidden lg:block"
       />
       <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-gradient-to-b from-black bg-black/60 via-transparent to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black bg-black/60 lg:bg-black/80 via-transparent to-transparent"></div>
         <div className="relative flex flex-col lg:flex-row p-4 lg:py-12 xl:justify-center">
           <div className="w-full xl:w-container flex flex-col lg:flex-row gap-8 justify-center">
             <div
