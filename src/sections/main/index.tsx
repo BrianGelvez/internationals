@@ -121,12 +121,12 @@ export default function Main() {
             </div>
           )}
         </div>
-        <div className="absolute transition-transform duration-300 bottom-28 w-full lg:w-full lg:flex lg:justify-center lg:items-center px-3 h-10">
+        <div className="absolute transition-transform duration-300 bottom-32 w-full lg:w-full lg:flex lg:justify-center lg:items-center px-3 h-10">
           <button className="backdrop-blur-sm bg-brown-primary/30 shadow-md border-[1px] border-brown-secundary w-full lg:w-auto lg:px-14 lg:py-3 h-auto p-2 rounded-lg text-white lg:text-3xl lg:flex lg:justify-center lg:items-center">
             ¡Haz tu pedido ahora! 😋
           </button>
         </div>
-        <div className="absolute bottom-0 w-full h-24 opacity-50 flex justify-center items-center">
+        <div className="absolute bottom-6 w-full h-24 opacity-50 flex justify-center items-center">
           <Link href="#aboutme">
             <FaArrowDown size={36} className="text-white animate-bounce" />
           </Link>
