@@ -24,7 +24,7 @@ export default function AboutMe() {
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-b from-black bg-black/60 lg:bg-black/80 via-transparent to-transparent"></div>
         <div className="relative flex flex-col lg:flex-row p-4 lg:py-12 xl:justify-center">
-          <div className="w-full xl:px-container flex flex-col lg:flex-row gap-8 justify-center">
+          <div className="w-full xl:px-container flex flex-col lg:flex-row gap-8 justify-center bg-red-500">
             <div
               className="w-full lg:w-[50%] h-auto flex flex-col gap-2 lg:gap-8 border-[1px]
                       shadow-full border-[#195d69] backdrop-blur-sm p-4 rounded-lg"
