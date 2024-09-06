@@ -27,7 +27,7 @@ export default function AboutMe() {
           <div className="w-full xl:w-container flex flex-col lg:flex-row gap-8 justify-center">
             <div
               className="w-full lg:w-[50%] h-auto flex flex-col gap-2 lg:gap-8 border-[1px]
-                      shadow-full border-[#343434] backdrop-blur-sm p-4 rounded-lg"
+                      shadow-full border-[#195d69] backdrop-blur-sm p-4 rounded-lg"
             >
               <div className="lg:flex lg:flex-col lg:justify-center lg:items-center">
                 <p className="text-xl lg:text-3xl text-gray-300 mb-4 text-center text-scratched">
@@ -97,13 +97,13 @@ export default function AboutMe() {
               <div className="w-full flex flex-col gap-5 my-12">
                 <a
                   href="/aboutMe"
-                  className="text-center backdrop-blur-sm lg:text-xl mt-2 w-full font-extralight text-slate-200 border-2 border-brown-primary rounded-lg lg:rounded-xl p-1 lg:p-2 shadow-lg shadow-slate-100/50"
+                  className="text-center backdrop-blur-sm lg:text-xl mt-2 w-full font-extralight text-slate-200 border-2 border-[#195d69] border-brown-primary rounded-lg lg:rounded-xl p-1 lg:p-2 shadow-light shadow-blue-200/50"
                 >
                   Categorias 🍽️
                 </a>
                 <a
                   href="/services"
-                  className="text-center backdrop-blur-sm lg:text-xl mt-2 w-full font-extralight text-slate-200 border-2 border-brown-primary rounded-lg lg:rounded-xl p-1 lg:p-2 shadow-lg shadow-slate-100/50"
+                  className="text-center backdrop-blur-sm lg:text-xl mt-2 w-full font-extralight text-slate-200 border-2 border-[#195d69] border-brown-primary rounded-lg lg:rounded-xl p-1 lg:p-2 shadow-light shadow-blue-200/50"
                 >
                   Testimonios 💬
                 </a>
