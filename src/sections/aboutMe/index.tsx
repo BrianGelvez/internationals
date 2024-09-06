@@ -22,7 +22,7 @@ export default function AboutMe() {
         className="hidden lg:block"
       />
       <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-gradient-to-b from-black bg-black/70 via-transparent to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black bg-black/60 via-transparent to-transparent"></div>
         <div className="relative flex flex-col lg:flex-row p-4 lg:py-12 xl:justify-center">
           <div className="w-full xl:w-container flex flex-col lg:flex-row gap-8 justify-center">
             <div
@@ -75,16 +75,16 @@ export default function AboutMe() {
             <div className="w-full lg:w-[50%] h-auto">
               <div className="mt-8 flex flex-col">
                 <div className="flex flex-col">
-                  <span className="flex flex-row justify-center items-center gap-2">
-                    <p className="gradient-text text-[15px] py-2 lg:text-lg">
-                      Producto mas vendido
-                    </p>
+                  <span className="flex flex-col justify-center items-center pb-2">
                     <Image
                       src="/estrellas.webp"
                       alt="Icono de tres estrellas"
                       width={80}
                       height={80}
                     />
+                    <p className="gradient-text text-[15px] lg:text-lg">
+                      Producto mas vendido
+                    </p>
                   </span>
                   <a
                     href="/#contacto"
