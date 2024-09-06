@@ -24,26 +24,26 @@ export default function AboutMe() {
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-b from-black bg-black/60 lg:bg-black/80 via-transparent to-transparent"></div>
         <div className="relative flex flex-col lg:flex-row p-4 lg:py-12 xl:justify-center">
-          <div className="w-full xl:w-container flex flex-col lg:flex-row gap-8 justify-center">
+          <div className="w-full xl:px-container flex flex-col lg:flex-row gap-8 justify-center">
             <div
               className="w-full lg:w-[50%] h-auto flex flex-col gap-2 lg:gap-8 border-[1px]
                       shadow-full border-[#195d69] backdrop-blur-sm p-4 rounded-lg"
             >
               <div className="lg:flex lg:flex-col lg:justify-center lg:items-center">
-                <p className="text-xl lg:text-3xl text-gray-300 mb-4 text-center text-scratched">
+                <p className="text-xl lg:text-2xl text-gray-300 mb-4 text-center text-scratched">
                   ¡Hola! Soy{" "}
                   <span className="font-light text-yellow-700">
                     Tobias Giana
                   </span>
                   , creador y fundador de Internationals.
                 </p>
-                <p className="text-xl lg:text-3xl text-gray-300 mb-4 text-center text-scratched">
+                <p className="text-xl lg:text-2xl text-gray-300 mb-4 text-center text-scratched">
                   En Internationals nos especializamos en ofrecer comida rapida
                   de primera calidad con un toque internacional. Preparamos
                   hamburguesas y lomos unicos con ingredientes de cada rincon
                   del mundo.
                 </p>
-                <p className="text-xl lg:text-3xl text-gray-300 mb-4 text-center text-scratched">
+                <p className="text-xl lg:text-2xl text-gray-300 mb-4 text-center text-scratched">
                   Desde la jugosa hamburguesa{" "}
                   <span className="argentina-gradient font-bold">
                     argentina
@@ -55,7 +55,7 @@ export default function AboutMe() {
                   lleva a un país diferente.
                 </p>
 
-                <p className="text-xl lg:text-3xl text-gray-300 text-center text-scratched">
+                <p className="text-xl lg:text-2xl text-gray-300 text-center text-scratched">
                   Ven y descubre por que Internationals es el lugar donde la
                   calidad y la diversidad culinaria se encuentran.
                 </p>

@@ -17,10 +17,10 @@ export default function Header() {
   return (
     <div
       className={`fixed top-0 left-1/2 -translate-x-1/2 
-                 w-full lg:px-container backdrop-blur-sm bg-black/60 shadow-md z-10
+                 w-full xl:px-container backdrop-blur-sm bg-black/60 shadow-md z-10
                  transition-transform duration-300 translate-y-0`}
     >
-      <div className="relative w-full flex flex-row justify-between items-start p-3">
+      <div className="relative w-full flex flex-row justify-between items-start p-4">
         <span className="cursor-pointer">
           <Link href="/">
             <Image
