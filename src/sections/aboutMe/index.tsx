@@ -48,11 +48,11 @@ export default function AboutMe() {
                   <span className="argentina-gradient font-bold">
                     argentina
                   </span>
-                  , hasta los sabores mas vibrantes de la {" "}
-                  <span className="font-bold brazil-gradient">brasilera</span>, la{" "}
-                  <span className="font-bold mexico-gradient">mexicana</span>, y muchas mas.
-                  Cada bocado es una experiencia unica que te lleva a un país
-                  diferente.
+                  , hasta los sabores mas vibrantes de la{" "}
+                  <span className="font-bold brazil-gradient">brasilera</span>,
+                  la <span className="font-bold mexico-gradient">mexicana</span>
+                  , y muchas mas. Cada bocado es una experiencia unica que te
+                  lleva a un país diferente.
                 </p>
 
                 <p className="text-xl lg:text-3xl text-gray-300 text-center text-scratched">
@@ -67,6 +67,7 @@ export default function AboutMe() {
                   alt="Firma de Luis y José"
                   width={110}
                   height={110}
+                  className="opacity-50"
                 />
               </div>
             </div>
@@ -76,7 +77,7 @@ export default function AboutMe() {
                 <div className="flex flex-col">
                   <span className="flex flex-row justify-center items-center gap-2">
                     <p className="gradient-text text-[15px] py-2 lg:text-lg">
-                      Producto más vendido
+                      Producto mas vendido
                     </p>
                     <Image
                       src="/estrellas.webp"
@@ -87,22 +88,22 @@ export default function AboutMe() {
                   </span>
                   <a
                     href="/#contacto"
-                    className="text-center lg:text-2xl py-2 px-4 lg:py-2 bg-brown-secundary bg-gradient-to-tl via-brown-primary from-brown-try text-white lg:rounded-xl rounded-md"
+                    className="text-center lg:text-2xl py-2 px-4 lg:py-2 bg-gradient-to-r from-[#74A3E0] via-[#FFFFFF] to-[#74A3E0] text-blue-900 lg:rounded-xl rounded-md shadow-md hover:shadow-lg transition-shadow duration-300"
                   >
-                    Mates Personalizados 🧉
+                    Hamburguesa Argenta 🍔
                   </a>
                 </div>
               </div>
               <div className="w-full flex flex-col gap-5 my-12">
                 <a
                   href="/aboutMe"
-                  className="text-center lg:text-xl mt-2 w-full font-extralight text-slate-200 border-2 border-brown-primary rounded-lg lg:rounded-xl p-1 lg:p-2 shadow-lg shadow-yellow-700/50"
+                  className="text-center backdrop-blur-sm lg:text-xl mt-2 w-full font-extralight text-slate-200 border-2 border-brown-primary rounded-lg lg:rounded-xl p-1 lg:p-2 shadow-lg shadow-slate-100/50"
                 >
-                  Conoce más productos 🖼️
+                  Categorias 🍽️
                 </a>
                 <a
                   href="/services"
-                  className="text-center lg:text-xl mt-2 w-full font-extralight text-slate-200 border-2 border-brown-primary rounded-lg lg:rounded-xl p-1 lg:p-2 shadow-lg shadow-yellow-700/50"
+                  className="text-center backdrop-blur-sm lg:text-xl mt-2 w-full font-extralight text-slate-200 border-2 border-brown-primary rounded-lg lg:rounded-xl p-1 lg:p-2 shadow-lg shadow-slate-100/50"
                 >
                   Testimonios 💬
                 </a>
